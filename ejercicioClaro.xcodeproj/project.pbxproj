@@ -1,0 +1,882 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		455EF5101A6F7E2B08354491 /* Pods_ejercicioClaroUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF712939CD7D20FCCB65EA66 /* Pods_ejercicioClaroUITests.framework */; };
+		634108E222DC70850030B59E /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 634108E122DC70840030B59E /* WebKit.framework */; };
+		6345CA3922D97B9D00CB141A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6345CA3822D97B9D00CB141A /* AppDelegate.swift */; };
+		6345CA3B22D97B9D00CB141A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6345CA3A22D97B9D00CB141A /* ViewController.swift */; };
+		6345CA3E22D97B9D00CB141A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6345CA3C22D97B9D00CB141A /* Main.storyboard */; };
+		6345CA4322D97BA800CB141A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6345CA4222D97BA800CB141A /* Assets.xcassets */; };
+		6345CA4622D97BA800CB141A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6345CA4422D97BA800CB141A /* LaunchScreen.storyboard */; };
+		6345CA5122D97BA800CB141A /* ejercicioClaroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6345CA5022D97BA800CB141A /* ejercicioClaroTests.swift */; };
+		6345CA5C22D97BA900CB141A /* ejercicioClaroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6345CA5B22D97BA900CB141A /* ejercicioClaroUITests.swift */; };
+		63CB192B22DAA6D20019E082 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63CB192622DAA6D10019E082 /* Roboto-Light.ttf */; };
+		63CB192C22DAA6D20019E082 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63CB192722DAA6D20019E082 /* Roboto-Medium.ttf */; };
+		63CB192D22DAA6D20019E082 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63CB192822DAA6D20019E082 /* Roboto-Bold.ttf */; };
+		63CB192E22DAA6D20019E082 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63CB192922DAA6D20019E082 /* Roboto-Regular.ttf */; };
+		63CB192F22DAA6D20019E082 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63CB192A22DAA6D20019E082 /* Roboto-Thin.ttf */; };
+		63CB193422DAAE5E0019E082 /* RecipeResultsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CB193322DAAE5E0019E082 /* RecipeResultsTableViewCell.swift */; };
+		63CB193622DAB9C20019E082 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CB193522DAB9C20019E082 /* Services.swift */; };
+		63CB193822DABC1F0019E082 /* RequestConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CB193722DABC1F0019E082 /* RequestConfiguration.swift */; };
+		63CB193A22DABCCA0019E082 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CB193922DABCCA0019E082 /* Constants.swift */; };
+		63CB193C22DAE21F0019E082 /* RecipeResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CB193B22DAE21F0019E082 /* RecipeResultsViewController.swift */; };
+		63CB193E22DAE4010019E082 /* SearchQueryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CB193D22DAE4010019E082 /* SearchQueryModel.swift */; };
+		63CB194222DB71870019E082 /* Recipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CB194122DB71870019E082 /* Recipes.swift */; };
+		63CB194422DBC57A0019E082 /* ExtentionsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CB194322DBC5790019E082 /* ExtentionsViews.swift */; };
+		63CB194622DBE7160019E082 /* DetailRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CB194522DBE7150019E082 /* DetailRecipeViewController.swift */; };
+		63CB194822DBF49A0019E082 /* UrlRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CB194722DBF49A0019E082 /* UrlRecipeViewController.swift */; };
+		E4558EE99293090AFEFE5AFB /* Pods_ejercicioClaroTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4322CA3FA6E36B1E35F315 /* Pods_ejercicioClaroTests.framework */; };
+		F736EE0C49B05D771A646072 /* Pods_ejercicioClaro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BF2BBEAA6DA0BB9C4088BB3 /* Pods_ejercicioClaro.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6345CA4D22D97BA800CB141A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6345CA2D22D97B9D00CB141A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6345CA3422D97B9D00CB141A;
+			remoteInfo = ejercicioClaro;
+		};
+		6345CA5822D97BA800CB141A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6345CA2D22D97B9D00CB141A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6345CA3422D97B9D00CB141A;
+			remoteInfo = ejercicioClaro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25BC2F421D271F0E7D66C7FE /* Pods-ejercicioClaroUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ejercicioClaroUITests.release.xcconfig"; path = "Target Support Files/Pods-ejercicioClaroUITests/Pods-ejercicioClaroUITests.release.xcconfig"; sourceTree = "<group>"; };
+		27F97DE4318D604DDDD26FD7 /* Pods-ejercicioClaro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ejercicioClaro.release.xcconfig"; path = "Target Support Files/Pods-ejercicioClaro/Pods-ejercicioClaro.release.xcconfig"; sourceTree = "<group>"; };
+		4A4322CA3FA6E36B1E35F315 /* Pods_ejercicioClaroTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ejercicioClaroTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BF2BBEAA6DA0BB9C4088BB3 /* Pods_ejercicioClaro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ejercicioClaro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5251299F5F90E306CF69A4D6 /* Pods-ejercicioClaroTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ejercicioClaroTests.release.xcconfig"; path = "Target Support Files/Pods-ejercicioClaroTests/Pods-ejercicioClaroTests.release.xcconfig"; sourceTree = "<group>"; };
+		634108E122DC70840030B59E /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		634108E322DC733C0030B59E /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		634108E522DC733C0030B59E /* AlamofireImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AlamofireImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		634108E722DC733C0030B59E /* Moya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Moya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		634108E922DC733C0030B59E /* ObjectMapper_Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ObjectMapper_Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		634108EB22DC733C0030B59E /* ObjectMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		634108ED22DC733C0030B59E /* ObjectMapperAdditions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ObjectMapperAdditions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		634108EF22DC733C0030B59E /* Pods_ejercicioClaroTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_ejercicioClaroTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		634108F122DC733C0030B59E /* Pods_ejercicioClaroUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_ejercicioClaroUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		634108F322DC733C0030B59E /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		634108F522DC733C0030B59E /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		634108F722DC733C0030B59E /* Result.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Result.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6345CA3522D97B9D00CB141A /* ejercicioClaro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ejercicioClaro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6345CA3822D97B9D00CB141A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6345CA3A22D97B9D00CB141A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6345CA3D22D97B9D00CB141A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6345CA4222D97BA800CB141A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6345CA4522D97BA800CB141A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6345CA4722D97BA800CB141A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6345CA4C22D97BA800CB141A /* ejercicioClaroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ejercicioClaroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6345CA5022D97BA800CB141A /* ejercicioClaroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicioClaroTests.swift; sourceTree = "<group>"; };
+		6345CA5222D97BA800CB141A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6345CA5722D97BA800CB141A /* ejercicioClaroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ejercicioClaroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6345CA5B22D97BA900CB141A /* ejercicioClaroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicioClaroUITests.swift; sourceTree = "<group>"; };
+		6345CA5D22D97BA900CB141A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63CB192622DAA6D10019E082 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		63CB192722DAA6D20019E082 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		63CB192822DAA6D20019E082 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		63CB192922DAA6D20019E082 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		63CB192A22DAA6D20019E082 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		63CB193322DAAE5E0019E082 /* RecipeResultsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeResultsTableViewCell.swift; sourceTree = "<group>"; };
+		63CB193522DAB9C20019E082 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		63CB193722DABC1F0019E082 /* RequestConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestConfiguration.swift; sourceTree = "<group>"; };
+		63CB193922DABCCA0019E082 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		63CB193B22DAE21F0019E082 /* RecipeResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeResultsViewController.swift; sourceTree = "<group>"; };
+		63CB193D22DAE4010019E082 /* SearchQueryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchQueryModel.swift; sourceTree = "<group>"; };
+		63CB194122DB71870019E082 /* Recipes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipes.swift; sourceTree = "<group>"; };
+		63CB194322DBC5790019E082 /* ExtentionsViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtentionsViews.swift; sourceTree = "<group>"; };
+		63CB194522DBE7150019E082 /* DetailRecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRecipeViewController.swift; sourceTree = "<group>"; };
+		63CB194722DBF49A0019E082 /* UrlRecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlRecipeViewController.swift; sourceTree = "<group>"; };
+		6BD58189EA332D49F526723D /* Pods-ejercicioClaroTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ejercicioClaroTests.debug.xcconfig"; path = "Target Support Files/Pods-ejercicioClaroTests/Pods-ejercicioClaroTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AF712939CD7D20FCCB65EA66 /* Pods_ejercicioClaroUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ejercicioClaroUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE6484030B39E8AF479C9161 /* Pods-ejercicioClaro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ejercicioClaro.debug.xcconfig"; path = "Target Support Files/Pods-ejercicioClaro/Pods-ejercicioClaro.debug.xcconfig"; sourceTree = "<group>"; };
+		EEE98D8A3126217D89866161 /* Pods-ejercicioClaroUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ejercicioClaroUITests.debug.xcconfig"; path = "Target Support Files/Pods-ejercicioClaroUITests/Pods-ejercicioClaroUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6345CA3222D97B9D00CB141A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				634108E222DC70850030B59E /* WebKit.framework in Frameworks */,
+				F736EE0C49B05D771A646072 /* Pods_ejercicioClaro.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6345CA4922D97BA800CB141A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4558EE99293090AFEFE5AFB /* Pods_ejercicioClaroTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6345CA5422D97BA800CB141A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				455EF5101A6F7E2B08354491 /* Pods_ejercicioClaroUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53F35C8A709225A6BDA94240 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE6484030B39E8AF479C9161 /* Pods-ejercicioClaro.debug.xcconfig */,
+				27F97DE4318D604DDDD26FD7 /* Pods-ejercicioClaro.release.xcconfig */,
+				6BD58189EA332D49F526723D /* Pods-ejercicioClaroTests.debug.xcconfig */,
+				5251299F5F90E306CF69A4D6 /* Pods-ejercicioClaroTests.release.xcconfig */,
+				EEE98D8A3126217D89866161 /* Pods-ejercicioClaroUITests.debug.xcconfig */,
+				25BC2F421D271F0E7D66C7FE /* Pods-ejercicioClaroUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6345CA2C22D97B9D00CB141A = {
+			isa = PBXGroup;
+			children = (
+				6345CA3722D97B9D00CB141A /* ejercicioClaro */,
+				6345CA4F22D97BA800CB141A /* ejercicioClaroTests */,
+				6345CA5A22D97BA800CB141A /* ejercicioClaroUITests */,
+				6345CA3622D97B9D00CB141A /* Products */,
+				53F35C8A709225A6BDA94240 /* Pods */,
+				F1BD6FA17D55D440E7A1AFF7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6345CA3622D97B9D00CB141A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6345CA3522D97B9D00CB141A /* ejercicioClaro.app */,
+				6345CA4C22D97BA800CB141A /* ejercicioClaroTests.xctest */,
+				6345CA5722D97BA800CB141A /* ejercicioClaroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6345CA3722D97B9D00CB141A /* ejercicioClaro */ = {
+			isa = PBXGroup;
+			children = (
+				6345CA3822D97B9D00CB141A /* AppDelegate.swift */,
+				6345CA4222D97BA800CB141A /* Assets.xcassets */,
+				6345CA4722D97BA800CB141A /* Info.plist */,
+				6345CA4422D97BA800CB141A /* LaunchScreen.storyboard */,
+				63CB192022DA5BC10019E082 /* Controllers */,
+				63CB192422DA5D470019E082 /* Fonts */,
+				63CB192522DA5D800019E082 /* Models */,
+				63CB192122DA5C0C0019E082 /* Storyboards */,
+				63CB192322DA5CD80019E082 /* Utils */,
+				63CB193022DAABA50019E082 /* Views */,
+			);
+			path = ejercicioClaro;
+			sourceTree = "<group>";
+		};
+		6345CA4F22D97BA800CB141A /* ejercicioClaroTests */ = {
+			isa = PBXGroup;
+			children = (
+				6345CA5022D97BA800CB141A /* ejercicioClaroTests.swift */,
+				6345CA5222D97BA800CB141A /* Info.plist */,
+			);
+			path = ejercicioClaroTests;
+			sourceTree = "<group>";
+		};
+		6345CA5A22D97BA800CB141A /* ejercicioClaroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6345CA5B22D97BA900CB141A /* ejercicioClaroUITests.swift */,
+				6345CA5D22D97BA900CB141A /* Info.plist */,
+			);
+			path = ejercicioClaroUITests;
+			sourceTree = "<group>";
+		};
+		63CB192022DA5BC10019E082 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6345CA3A22D97B9D00CB141A /* ViewController.swift */,
+				63CB194522DBE7150019E082 /* DetailRecipeViewController.swift */,
+				63CB194722DBF49A0019E082 /* UrlRecipeViewController.swift */,
+				63CB193B22DAE21F0019E082 /* RecipeResultsViewController.swift */,
+				63CB193322DAAE5E0019E082 /* RecipeResultsTableViewCell.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		63CB192122DA5C0C0019E082 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				6345CA3C22D97B9D00CB141A /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		63CB192322DA5CD80019E082 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				63CB193522DAB9C20019E082 /* Services.swift */,
+				63CB193722DABC1F0019E082 /* RequestConfiguration.swift */,
+				63CB193922DABCCA0019E082 /* Constants.swift */,
+				63CB194322DBC5790019E082 /* ExtentionsViews.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		63CB192422DA5D470019E082 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				63CB192822DAA6D20019E082 /* Roboto-Bold.ttf */,
+				63CB192622DAA6D10019E082 /* Roboto-Light.ttf */,
+				63CB192722DAA6D20019E082 /* Roboto-Medium.ttf */,
+				63CB192922DAA6D20019E082 /* Roboto-Regular.ttf */,
+				63CB192A22DAA6D20019E082 /* Roboto-Thin.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		63CB192522DA5D800019E082 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				63CB193D22DAE4010019E082 /* SearchQueryModel.swift */,
+				63CB194122DB71870019E082 /* Recipes.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		63CB193022DAABA50019E082 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F1BD6FA17D55D440E7A1AFF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				634108E322DC733C0030B59E /* Alamofire.framework */,
+				634108E522DC733C0030B59E /* AlamofireImage.framework */,
+				634108E722DC733C0030B59E /* Moya.framework */,
+				634108E922DC733C0030B59E /* ObjectMapper_Realm.framework */,
+				634108EB22DC733C0030B59E /* ObjectMapper.framework */,
+				634108ED22DC733C0030B59E /* ObjectMapperAdditions.framework */,
+				634108EF22DC733C0030B59E /* Pods_ejercicioClaroTests.framework */,
+				634108F122DC733C0030B59E /* Pods_ejercicioClaroUITests.framework */,
+				634108F322DC733C0030B59E /* Realm.framework */,
+				634108F522DC733C0030B59E /* RealmSwift.framework */,
+				634108F722DC733C0030B59E /* Result.framework */,
+				634108E122DC70840030B59E /* WebKit.framework */,
+				4BF2BBEAA6DA0BB9C4088BB3 /* Pods_ejercicioClaro.framework */,
+				4A4322CA3FA6E36B1E35F315 /* Pods_ejercicioClaroTests.framework */,
+				AF712939CD7D20FCCB65EA66 /* Pods_ejercicioClaroUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6345CA3422D97B9D00CB141A /* ejercicioClaro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6345CA6022D97BA900CB141A /* Build configuration list for PBXNativeTarget "ejercicioClaro" */;
+			buildPhases = (
+				FD9166AE6180B3D0B07970DC /* [CP] Check Pods Manifest.lock */,
+				6345CA3122D97B9D00CB141A /* Sources */,
+				6345CA3222D97B9D00CB141A /* Frameworks */,
+				6345CA3322D97B9D00CB141A /* Resources */,
+				4AB0960E97F335A37D338340 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ejercicioClaro;
+			productName = ejercicioClaro;
+			productReference = 6345CA3522D97B9D00CB141A /* ejercicioClaro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6345CA4B22D97BA800CB141A /* ejercicioClaroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6345CA6322D97BA900CB141A /* Build configuration list for PBXNativeTarget "ejercicioClaroTests" */;
+			buildPhases = (
+				C289A6953F2585FDB7E00EFA /* [CP] Check Pods Manifest.lock */,
+				6345CA4822D97BA800CB141A /* Sources */,
+				6345CA4922D97BA800CB141A /* Frameworks */,
+				6345CA4A22D97BA800CB141A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6345CA4E22D97BA800CB141A /* PBXTargetDependency */,
+			);
+			name = ejercicioClaroTests;
+			productName = ejercicioClaroTests;
+			productReference = 6345CA4C22D97BA800CB141A /* ejercicioClaroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6345CA5622D97BA800CB141A /* ejercicioClaroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6345CA6622D97BA900CB141A /* Build configuration list for PBXNativeTarget "ejercicioClaroUITests" */;
+			buildPhases = (
+				73686B2213E5D96D75AB5250 /* [CP] Check Pods Manifest.lock */,
+				6345CA5322D97BA800CB141A /* Sources */,
+				6345CA5422D97BA800CB141A /* Frameworks */,
+				6345CA5522D97BA800CB141A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6345CA5922D97BA800CB141A /* PBXTargetDependency */,
+			);
+			name = ejercicioClaroUITests;
+			productName = ejercicioClaroUITests;
+			productReference = 6345CA5722D97BA800CB141A /* ejercicioClaroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6345CA2D22D97B9D00CB141A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Ejercicio Claro";
+				TargetAttributes = {
+					6345CA3422D97B9D00CB141A = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					6345CA4B22D97BA800CB141A = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 6345CA3422D97B9D00CB141A;
+					};
+					6345CA5622D97BA800CB141A = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 6345CA3422D97B9D00CB141A;
+					};
+				};
+			};
+			buildConfigurationList = 6345CA3022D97B9D00CB141A /* Build configuration list for PBXProject "ejercicioClaro" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6345CA2C22D97B9D00CB141A;
+			productRefGroup = 6345CA3622D97B9D00CB141A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6345CA3422D97B9D00CB141A /* ejercicioClaro */,
+				6345CA4B22D97BA800CB141A /* ejercicioClaroTests */,
+				6345CA5622D97BA800CB141A /* ejercicioClaroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6345CA3322D97B9D00CB141A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63CB192F22DAA6D20019E082 /* Roboto-Thin.ttf in Resources */,
+				63CB192C22DAA6D20019E082 /* Roboto-Medium.ttf in Resources */,
+				63CB192E22DAA6D20019E082 /* Roboto-Regular.ttf in Resources */,
+				6345CA4622D97BA800CB141A /* LaunchScreen.storyboard in Resources */,
+				63CB192D22DAA6D20019E082 /* Roboto-Bold.ttf in Resources */,
+				6345CA4322D97BA800CB141A /* Assets.xcassets in Resources */,
+				63CB192B22DAA6D20019E082 /* Roboto-Light.ttf in Resources */,
+				6345CA3E22D97B9D00CB141A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6345CA4A22D97BA800CB141A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6345CA5522D97BA800CB141A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4AB0960E97F335A37D338340 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ejercicioClaro/Pods-ejercicioClaro-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper+Realm/ObjectMapper_Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapperAdditions/ObjectMapperAdditions.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper_Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapperAdditions.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ejercicioClaro/Pods-ejercicioClaro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73686B2213E5D96D75AB5250 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ejercicioClaroUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C289A6953F2585FDB7E00EFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ejercicioClaroTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD9166AE6180B3D0B07970DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ejercicioClaro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6345CA3122D97B9D00CB141A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63CB193422DAAE5E0019E082 /* RecipeResultsTableViewCell.swift in Sources */,
+				63CB193622DAB9C20019E082 /* Services.swift in Sources */,
+				63CB194622DBE7160019E082 /* DetailRecipeViewController.swift in Sources */,
+				6345CA3B22D97B9D00CB141A /* ViewController.swift in Sources */,
+				63CB193822DABC1F0019E082 /* RequestConfiguration.swift in Sources */,
+				6345CA3922D97B9D00CB141A /* AppDelegate.swift in Sources */,
+				63CB194822DBF49A0019E082 /* UrlRecipeViewController.swift in Sources */,
+				63CB193C22DAE21F0019E082 /* RecipeResultsViewController.swift in Sources */,
+				63CB193E22DAE4010019E082 /* SearchQueryModel.swift in Sources */,
+				63CB194422DBC57A0019E082 /* ExtentionsViews.swift in Sources */,
+				63CB194222DB71870019E082 /* Recipes.swift in Sources */,
+				63CB193A22DABCCA0019E082 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6345CA4822D97BA800CB141A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6345CA5122D97BA800CB141A /* ejercicioClaroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6345CA5322D97BA800CB141A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6345CA5C22D97BA900CB141A /* ejercicioClaroUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6345CA4E22D97BA800CB141A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6345CA3422D97B9D00CB141A /* ejercicioClaro */;
+			targetProxy = 6345CA4D22D97BA800CB141A /* PBXContainerItemProxy */;
+		};
+		6345CA5922D97BA800CB141A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6345CA3422D97B9D00CB141A /* ejercicioClaro */;
+			targetProxy = 6345CA5822D97BA800CB141A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6345CA3C22D97B9D00CB141A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6345CA3D22D97B9D00CB141A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6345CA4422D97BA800CB141A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6345CA4522D97BA800CB141A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6345CA5E22D97BA900CB141A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6345CA5F22D97BA900CB141A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6345CA6122D97BA900CB141A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE6484030B39E8AF479C9161 /* Pods-ejercicioClaro.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 278U4YZJ64;
+				INFOPLIST_FILE = ejercicioClaro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.manterola.ejercicioClaro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6345CA6222D97BA900CB141A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27F97DE4318D604DDDD26FD7 /* Pods-ejercicioClaro.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 278U4YZJ64;
+				INFOPLIST_FILE = ejercicioClaro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.manterola.ejercicioClaro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6345CA6422D97BA900CB141A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BD58189EA332D49F526723D /* Pods-ejercicioClaroTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 278U4YZJ64;
+				INFOPLIST_FILE = ejercicioClaroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.manterola.ejercicioClaroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ejercicioClaro.app/ejercicioClaro";
+			};
+			name = Debug;
+		};
+		6345CA6522D97BA900CB141A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5251299F5F90E306CF69A4D6 /* Pods-ejercicioClaroTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 278U4YZJ64;
+				INFOPLIST_FILE = ejercicioClaroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.manterola.ejercicioClaroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ejercicioClaro.app/ejercicioClaro";
+			};
+			name = Release;
+		};
+		6345CA6722D97BA900CB141A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEE98D8A3126217D89866161 /* Pods-ejercicioClaroUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 278U4YZJ64;
+				INFOPLIST_FILE = ejercicioClaroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.manterola.ejercicioClaroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ejercicioClaro;
+			};
+			name = Debug;
+		};
+		6345CA6822D97BA900CB141A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25BC2F421D271F0E7D66C7FE /* Pods-ejercicioClaroUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 278U4YZJ64;
+				INFOPLIST_FILE = ejercicioClaroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.manterola.ejercicioClaroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ejercicioClaro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6345CA3022D97B9D00CB141A /* Build configuration list for PBXProject "ejercicioClaro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6345CA5E22D97BA900CB141A /* Debug */,
+				6345CA5F22D97BA900CB141A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6345CA6022D97BA900CB141A /* Build configuration list for PBXNativeTarget "ejercicioClaro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6345CA6122D97BA900CB141A /* Debug */,
+				6345CA6222D97BA900CB141A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6345CA6322D97BA900CB141A /* Build configuration list for PBXNativeTarget "ejercicioClaroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6345CA6422D97BA900CB141A /* Debug */,
+				6345CA6522D97BA900CB141A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6345CA6622D97BA900CB141A /* Build configuration list for PBXNativeTarget "ejercicioClaroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6345CA6722D97BA900CB141A /* Debug */,
+				6345CA6822D97BA900CB141A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6345CA2D22D97B9D00CB141A /* Project object */;
+}
